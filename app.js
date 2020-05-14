@@ -31,12 +31,17 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
-
+    var sum = a * b;
+    
+    var msg = `The product of ${a} and ${b} is ${sum}.`;
+    
+    return [sum,msg];
 }
+
 
 // Here is the test for multiply(); uncomment it to run it
 //5,9
-// testMultiply();
+testMultiply();
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -53,12 +58,24 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
-
+    var a1 = sum(a, b)[0];
+    var a2 = sum(a1,c)[0];
+    var b1 =multiply(a, b)[0];
+    var b2 =multiply(b1,c)[0];
+    
+    var msg = `${a} and ${b} and ${c} sum to ${a2}.`;
+    var msg2= `The product of ${a} and ${b} and ${c} is ${b2}.`;
+    // console.log(msg);
+    // console.log(a1,a2);
+    // console.log(b1,b2);
+    // console.log(msg);
+    // console.log(msg2);
+    return [a2,b2,msg,msg2];
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
 // 4,7,5
-// testSumAndMultiply();
+testSumAndMultiply();
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
