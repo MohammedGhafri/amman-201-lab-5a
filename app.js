@@ -65,12 +65,12 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
 
     var msg = `${a} and ${b} and ${c} sum to ${a2}.`;
     var msg2 = `The product of ${a} and ${b} and ${c} is ${b2}.`;
-    // console.log(msg);
+    // console.log(msg);//
     // console.log(a1,a2);
     // console.log(b1,b2);
     // console.log(msg);
     // console.log(msg2);
-    return [a2, b2, msg, msg2];
+    return [a2, b2, msg, msg2];//return four elements
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
@@ -114,7 +114,7 @@ function sumArray(sumArr) {
 
 // Here is the test for sumArray(); uncomment it to run it
 //testArray
-testSumArray();
+// testSumArray();
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -139,7 +139,7 @@ function multiplyArray(multArr) { //eslint-disable-line
 
 // Here is the test for multiplyArray(); uncomment it to run it
 // testArray
-testMultiplyArray();
+// testMultiplyArray();
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
 
@@ -185,6 +185,6 @@ function multiplyAnyArray(dynamicArray) { //eslint-disable-line
 
 // Here is the test for multiplyArray(); uncomment it to run it
 // testDynamicArray
-testMultiplyAnyArray();
+// testMultiplyAnyArray();
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. You're done! Submit the link to the repo following the instructions in Canvas.
