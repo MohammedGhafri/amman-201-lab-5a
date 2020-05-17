@@ -105,6 +105,9 @@ function sumArray(sumArr) {
 // console.log(c);
     var a1 = sum(sumArr[0], sumArr[1])[0];
     var a2 = sum(a1, sumArr[2])[0];
+    // var summation = sum(sumArr[0],sum(sumArr[1],sumArr[2])[0])[0];
+    // console.log(summation);
+    // console.log(`this is ` ,a2);
     var msg2 = `${sumArr[0]},${sumArr[1]},${sumArr[2]} was passed in as an array of numbers, and 9 is their sum.`;
     // console.log(`test array`, testArray);
     // console.log(a2);
